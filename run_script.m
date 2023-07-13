@@ -169,7 +169,6 @@ scen_props.radStop = 50*scen_props.px2cm;
 scen_props.startPose = start_pose;
 scen_props.goalPosition = goal_position;
 planning.RTGaitPlanner.plotTrajectory(trajectory_plan, scen_props, gait_library, fig_hdl, msoro_outline);
-keyboard
 input('Press <Enter> to continue');
 
 %[] Tracking parameters
