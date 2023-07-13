@@ -27,8 +27,7 @@ if choose_cam_prop == 1
 end
 
 %Distortion parameter
-% distortion = load('D:\Arun Niddish\Vision\Visual Tracking\Callibration images(1920x1080)\cameraParams');   %Parameters for distortion correction for 1920x1080
-distortion =load('cameraParams.mat');
+distortion =load('cameraParams.mat');   %Parameters for distortion correction for 1920x1080
 
 pause(2);
 setup_img = cam.snapshot;
