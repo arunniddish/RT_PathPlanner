@@ -1,3 +1,8 @@
+%% Dependencies:
+% 1) cameraParams.mat
+% 2) world_data.m
+% 3)data
+
 clear all;
 clc;
 
